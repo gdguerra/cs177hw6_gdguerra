@@ -5,7 +5,7 @@ function f = nearHundred(n)
 % Gabriel Guerra
 % 5/4/2011
 
-if ~isnumeric(n) & length(n) == 1
+if ~(isnumeric(n) & length(n) == 1)
 	disp('Error: n must be a numeric int.')
 	f = -1;
 else

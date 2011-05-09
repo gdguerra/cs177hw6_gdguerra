@@ -10,7 +10,7 @@ if ~ischar(s)
 	disp('Error: s must be a character array');
 	f = -1;
 else
-	if length(s) == 1
+	if length(s) <= 1
 		f = [s s s];
 	else
 		a = [s(1:2)];

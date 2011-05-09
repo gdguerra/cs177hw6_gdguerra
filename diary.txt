@@ -1,0 +1,195 @@
+bigDiff(4   36   32)==32
+bigDiff(5   4   3)==2
+bigDiff(3)==0
+bigDiff(6    6  10)==4
+bigDiff(5   6   7)==2
+bigDiff(8    9   11)==3
+bigDiff(100    34     5     2)==98
+bigDiff(2   2   1)==1
+bigDiff(0   0   7)==7
+bigDiff(8     8  400)==392
+bigDiff(23   34   22)==12
+bigDiff(-25    -50  100)==150
+bigDiff(50    3)==47
+bigDiff(3   3   3)==0
+bigDiff(-3    3    2)==6
+bigDiff(9   3   9)==6
+ans = 0
+
+
+	blackjack(19, 21) = 21
+	blackjack(21, 19) = 21
+	blackjack(19, 22) = 19
+	blackjack(22, 19) = 19
+	blackjack(2, 15) = 15
+	blackjack(14, 2) = 14
+	blackjack(23, 17) = 17
+	blackjack(18, 22) = 18
+	blackjack(22, 22) = 0
+	blackjack(11, 11) = 11
+Error: a and b must be integers greater than zero
+	blackjack(-2, -4) = -1
+Error: a and b must be integers greater than zero
+	blackjack(-2, 21) = -1
+	blackjack(100, 21) = 21
+	blackjack(22, 21) = 21
+Tests succesful!ans = 0
+
+
+	canBalance([0]) = 0
+	canBalance([5   2   3]) = 1
+	canBalance([1   2   4   6   1]) = 1
+	canBalance([8   4   2   2   2   2   2   2]) = 1
+	canBalance([12   12]) = 1
+	canBalance([]) = 0
+	canBalance([2   4   4   2]) = 1
+	canBalance([8   4   2]) = 0
+	canBalance([9   5   4   1]) = 0
+	canBalance([25    5    5   15]) = 1
+	canBalance([60    5    3    8  30  30]) = 1
+0 test(s) failed
+
+
+	front22(hello) = hehellohe
+	front22(go) = gogogo
+	front22(f) = fff
+	front22(what is this) = whwhat is thiswh
+	front22( blah) =  b blah b
+	front22(  huh) =     huh  
+	front22(goes) = gogoesgo
+	front22(xxxxx) = xxxxxxxxx
+	front22(XxXxXx) = XxXxXxXxXx
+	front22(XXxx) = XXXXxxXX
+	front22() = 
+0 test(s) failedans = 0
+
+
+frontBack(computers)=somputerc
+frontBack(will)=lilw
+frontBack(conquer)=ronquec
+frontBack(Earth)=hartE
+frontBack(Oh no!)=!h noO
+frontBack(be)=eb
+frontBack(antidisestablishmentarianism)=mntidisestablishmentarianisa
+frontBack(a)=a
+frontBack(radar)=radar
+frontBack( radar)=rrada 
+frontBack(hi )= ih
+frontBack(where am i)=ihere am w
+frontBack()=
+ans = 0
+
+
+gHappy(xxggxx) = 1
+
+gHappy(xxgxx) = 0
+
+gHappy(xxggyygxx) = 0
+
+gHappy(g) = 0
+
+gHappy(ggggggxxggg) = 1
+
+gHappy(xx) = 0
+
+gHappy(egsgsaggsetsx) = 0
+
+gHappy(point g) = 0
+
+gHappy(gggggggg) = 1
+
+gHappy(wghgagtg) = 0
+
+Failures: 0
+
+
+      greenticket(1,1,1)=20
+      greenticket(1,1,2)=10
+      greenticket(1,2,3)=0
+      greenticket(2,1,1)=10
+      greenticket(1,2,1)=10
+      greenticket(3,2,1)=0
+      greenticket(20,200,2)=0
+      greenticket(5,5,50)=10
+      greenticket(3,3,30)=10
+      greenticket(500,500,500)=20
+      greenticket(4,8,4)=10
+      greenticket(0,0,0)=20
+      greenticket(-4,8,-4)=10
+      greenticket(0,0,100)=10
+      greenticket(0,4,0)=10
+      greenticket(-20,20,2)=0
+      greenticket(2,2,2)=20
+e = 0
+ans = 0
+
+
+      hasTeen(12,20,13)=1
+      hasTeen(12,19,20)=1
+      hasTeen(19,20,12)=1
+      hasTeen(19,20,13)=1
+      hasTeen(19,18,13)=1
+      hasTeen(12,20,100)=0
+      hasTeen(90,12,20)=0
+      hasTeen(14,15,16)=1
+      hasTeen(12,12,12)=0
+      hasTeen(13,13,13)=1
+      hasTeen(-2,0,4)=0
+      hasTeen(12,16,1)=1
+      hasTeen(13,12,20)=1
+      hasTeen(12,20,12)=0
+      hasTeen(-13,14,20)=1
+      hasTeen(13,14,15)=1
+      hasTeen(12,20,21)=0
+      hasTeen(13,12,10)=1
+ans = 0
+
+
+Error: n must be a numeric int.
+nearHundred(-1) = nearHundred(90) = 1
+nearHundred(99) = 1
+nearHundred(89) = 0
+nearHundred(110) = 1
+nearHundred(111) = 0
+nearHundred(199) = 1
+nearHundred(210) = 1
+nearHundred(220) = 0
+nearHundred(180) = 0
+nearHundred(1) = 0
+0 test(s) failed
+
+
+	noTriples([0]) = 1
+	noTriples([5   2   2   2   3   3]) = 0
+	noTriples([1   2   4   6   1]) = 1
+	noTriples([8   4   2   2   2   2   2   2]) = 0
+	noTriples([12   12]) = 1
+	noTriples([]) = 1
+	noTriples([2   4   4   2]) = 1
+	noTriples([8   4   2   4   2   8   8   8   2   4   4   2]) = 0
+	noTriples([2   2   1   2   2]) = 1
+	noTriples([25    5    5   15]) = 1
+	noTriples([60    5    3    8  30  30  30]) = 0
+0 test(s) failed
+
+
+       combo_string(Code)=CCoCodCode
+       combo_string(abc)=aababc
+       combo_string(ab)=aab
+       combo_string(x)=x
+       combo_string(fade)=ffafadfade
+       combo_string(There)=TThTheTherThere
+       combo_string(Kitten)=KKiKitKittKitteKitten
+       combo_string(Bye)=BByBye
+       combo_string(Good)=GGoGooGood
+       combo_string(Bad)=BBaBad
+       combo_string(mmm)=mmmmmm
+       combo_string()=
+       combo_string(a b c)=aa a ba b a b c
+       combo_string( 123)=  1 12 123
+       combo_string(hi there)=hhihi hi thi thhi thehi therhi there
+       combo_string(XxX)=XXxXxX
+ans = 0
+
+END
+

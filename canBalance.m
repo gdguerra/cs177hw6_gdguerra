@@ -6,14 +6,16 @@ function b = canBalance(a)
 % Gabriel Guerra
 % 5/4/2011
 
-if ~isnumeric(a) | ~isvector(a)
+if ~isnumeric(a)
 	disp('Error: a must be a vector of numbers');
 	b = -1
 else
 	b = 0;
-	for i = [1:length(a)]
-		if sum(a(1:i)) == sum(a(i + 1:length(a)))
-			b = 1;
+	if length(a) > 1
+		for i = [1:length(a)]
+			if sum(a(1:i)) == sum(a(i + 1:length(a)))
+				b = 1;
+			end
 		end
 	end
 end
